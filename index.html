@@ -2,4 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <title>Home</title>
+    </head>
+    <body>
+      <header>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html" class= 'active-page'>Home</a>
+          <a href="about.html" class= 'inactive-page'>About</a>
+          <a href="portfolio.html" class= 'inactive-page'>Portfolio</a>
+          <a href="media.html" class = 'inactive-page'>Media</a>
+          <a href="contact.html" class= 'inactive-page'>Contact</a>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+        </script>
+        <h1 class = "name_title"> Emmie Wells</h1>
+        <div id= "main">
+          <span style="font-size: 20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        </div>
+      </div>
+      <a class = "skip" href="#skip">Skip to Main Content</a>
+      </header>    
+      <div class="card_contain"
+      <h1 class = "introduction"> Hi, I'm Emmie </h1>
+      <h1 class = "welcome"> Creative Entrepreneur, Experience Designer, & Marketing Strategist. </h1>
+      <div class = "headshot">
+        <img src="images/headshot.JPG" alt= "Emmie Wells Headshot"
+      </div>
+
+    </div>
+    <main class="about" id="skip" tabindex="0">
+      
+    </main>
+
