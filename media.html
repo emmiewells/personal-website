@@ -20,3 +20,49 @@
         <a href="media.html" class = 'active-page'>Media</a>
         <a href="contact.html" class= 'inactive-page'>Contact</a>
       </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+      <h1 class="name_title"> Emmie Wells</h1>
+      <div id="main">
+          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      </div>
+      <a class = "skip" href="#skip">Skip to Main Content</a>
+    </header>
+    <main class="about" id="skip" tabindex="0">
+    <h1> Photos </h1>
+    <div class="work_contain">
+      <figure class="butterflies">
+        <img class = "resize" src="images/butterflies.JPG" alt="Image of butterflies"/>
+      </figure>
+      <figure class="ferris">
+        <img class = "resize" src="images/ferris.JPG" alt=" State of Michigan Art at Ferris Coffee"/>
+      </figure>
+      <figure class="ross">
+        <img class = "resize" src="images/ross.JPG" alt="The University of Michigan Ross School of Business"/>
+      </figure>
+      <figure class="angell-hall-1">
+        <img class = "resize" src="images/angell-hall-1.JPG" alt="Angell Hall at UM"/>
+      </figure>
+      <figure class="buechner">
+        <img class = "resize" src="images/buechner-quote.JPG" alt="Quote by Buechner"/>
+      </figure>
+      <figure class = "angell-hall-1_img">
+        <img class = "resize" src="images/angell-hall-2.JPG" alt="Image of Angell Hall"/>
+      </figure>
+    </div>
+    </main>
+  <footer>
+    <p class = "footer"> Emmie Wells ~ emwells@umich.edu</p>
+  </footer>
+</body>
+</html>
