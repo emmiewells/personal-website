@@ -21,8 +21,8 @@ h2{
 }
 
 header{
-    background: #fff;
-    border-bottom: 2px solid black;
+    background: #e2e2e2;
+    border-bottom: 1px white;
     display:flex;
     justify-content: space-between;
 
@@ -35,13 +35,13 @@ header{
 .active-page{
     background-color: #e2e2e2;
     text-transform: uppercase;
-    color: black;
+    color: #e5b25d;
 }
 
 .sidenav{
     height: 100%;
     width: 200px
-    posotion fixed;
+    position: fixed;
     z-index: 1;
     top: 0
     left: 0;
@@ -58,7 +58,7 @@ header{
     padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: #e5b25d;
     display: block;
     transition: 0.3s;
   }
