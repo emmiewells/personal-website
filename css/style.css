@@ -77,4 +77,47 @@ header{
     transition: margin-left .5s;
     padding: 16px;
   }
+  a.skip{
+    background: white;
+    right: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
   
+  a.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+  
+  /* Home Page */
+  .card_contain {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr 3fr 1fr .5fr;
+    grid-template-rows: 1% auto auto auto auto;
+    grid-row-gap: 15px;
+  }
+  .hi {
+    text-align: left;
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+  }
+  
+  .welcome {
+    text-align: right;
+    grid-column: 2 / span 1;
+    grid-row: 9 / span 2;
+    font-size: smaller;
+  }
+  
+  .headshot {
+    grid-column: center;
+    grid-row: center;
+    width: fit-content;
+    height: auto;
+    padding: 2em;
+  }
