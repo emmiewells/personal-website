@@ -90,7 +90,7 @@ header{
   
   a.skip:focus{
     top:20px;
-    color: black;
+    color: #e5b25d;
     text-decoration-style: solid;
   }
   
@@ -121,3 +121,46 @@ header{
     height: auto;
     padding: 2em;
   }
+  .welcome {
+    text-align: right;
+    grid-column: 2 / span 1;
+    grid-row: 9 / span 2;
+    font-size: smaller;
+  }
+  
+  .picture {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 2;
+    width: fit-content;
+    height: auto;
+    padding: 2em;
+  }
+  
+  /* About Page */
+  .about_contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about_stretch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about_text_stretch {
+    max-width: 400px;
+  }
+  
+  .about_image {
+    border: 5px solid black;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+    align-self: center;
+  }
+
+.about_title {
+  font-size: 2em;
+}
