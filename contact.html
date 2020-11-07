@@ -20,3 +20,50 @@
         <a href="media.html" class = 'inactive-page'>Media</a>
         <a href="contact.html" class= 'active-page'>Contact</a>
       </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+      <h1 class="name_title"> Emmie Wells </h1>
+      <div id="main">
+          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      </div>
+      <a class = "skip" href="#skip">Skip to Main Content</a>
+    </header>
+<main class="about" id="skip" tabindex="0">
+  <h1>contact</h1>
+    <img class="pic" src="images/blue-stars.JPG" alt="Blue and Gold Stars"/>
+<div class = "form"> 
+  <div class="form_fill"> Let's Talk </div>
+  <form action="https://formspree.io/f/mayljern" method="POST"> 
+  <div>
+    <label for="_replyto">Name
+    <input type="text" id="_replyto" placeholder="Your email.."></label>
+  </div>
+  <div>
+    <label for="message">Message
+    <textarea id="message" placeholder="Your message.."></textarea></label>
+  </div>
+  <button type="submit">Send</button>
+</form>
+</div>
+<div class="contact">
+  <div>Alternatively, you can find me...</div>
+  <div></br>on <a href="https://www.linkedin.com/in/emmie-wells//">LinkedIn</a></div>
+  <div>on <a href = "https://www.instagram.com/emmiewells/">Instragram</a></div>
+  <div>at emwells@umich.edu</div>
+</div>
+    </main>
+</body>
+<footer class = "resume_footer">
+  <p> Emmie Wells | emwells@umich.edu</p>
+</footer>
+</html>

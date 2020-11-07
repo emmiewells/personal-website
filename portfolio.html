@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Resume</title>
 </head>
 <body>
   <header>
@@ -16,7 +16,58 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html" class= 'inactive-page'>Home</a>
       <a href="about.html" class= 'inactive-page'>About</a>
-      <a href="portfolio.html" class= 'active-page'>Portfolio</a>
+      <a href="portfolio.html" class= 'active-page'>Resume</a>
       <a href="media.html" class = 'inactive-page'>Media</a>
       <a href="contact.html" class= 'inactive-page'>Contact</a>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+      <h1 class="name_title"> Emmie Wells </h1>
+      <div id="main">
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      <a class = "skip" href="#skip">Skip to Main Content</a>
+    </header>
+    <main class="about" id="skip" tabindex="0">
+      <h1>resume</h1>
+    <div class="resume_contain">
+      <div class = "education_subtitle"> Education </div>
+      <div class = "education_info"><b>University of Michigan School of Information</b>
+        <br/> Bachelor of Science in Information
+        <br/> Concentration in User Experience 
+        <br/> Class of 2022
+      </div>
+      <div class = "skills_subtitle"> Skills </div>
+      <div class = "skills_info">
+        Technical Skills: Proficient with Microsoft Office, Proficient in Python 3, Basic HTML/CSS
+        Computer programs and Design: Adobe InDesign and Photoshop, Visual Studio Code, iMovie
+      </div>
+      <div class = "experience_subtitle"> Experience </div>
+      <div class = "experience_info"><b> Spring Sweet </b>
+        <br/> Store Associate
+        <br/> 
+        <br/> <b> Rush Copley Medical Center </b>
+        <br/> Women's Health and Maternity Center Volunteer
+        <br/> 
+        <br/> <b> Spring Sweet </b>
+        <br/> Store Associate
+        <br/> 
+        <br/> <b> Rush Copley Medical Center </b>
+        <br/> Women's Health and Maternity Center Volunteer
+      </div> 
+    </div>
+    </main>
+</body>
+<footer class = "resume_footer">
+  <p> Emmie Wells | emwells@umich.edu</p>
+</footer>
+</html>
