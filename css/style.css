@@ -337,8 +337,104 @@ footer{
   right: 0;
 }
 
+@media screen and (min-width: 850px){
+  /* Navbar */
+  .headshot {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 2;
+    width: fit-content;
+    height: auto;
+    border: 5px solid black;
+    padding: 2em;
+  }
+  .welcome{
+    grid-row: 7 span 2;
+  }
 
+  .welcome_introduction{
+    text-align: right;
+    grid-column: 3 / span 1;
+    grid-row: 9 / span 2;
+    font-size: smaller;
+  }
+  .resume_contain {
+    display: grid;
+    grid-template-columns: 5vw auto auto 10px;
+    grid-template-rows: 1% auto auto auto auto auto auto auto auto auto auto 6%;
+    grid-row-gap: 15px;
+  }
+
+  .education_subtitle {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    font-size: 1.5em;
+    margin-right: auto;
+    padding-left: 10vw;
+  }
+  .education_information {
+    color: black;
+    text-align: left;
+    grid-column: 3 / span 3;
+    grid-row: 4 / span 1;
+    font-size: 1em;
+    margin-bottom: 4%;
+    padding-left: 10vw;
+  }
   
+  .skills_subtitle {
+    text-align: left;
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+    font-size: 1.5em;
+    padding-left: 40vw;
+  }
+  
+  .skills_information {
+    color: black;
+    text-align: left;
+    grid-column: 4 / span 3;
+    grid-row: 4 / span 1;
+    font-size: 1em;
+    margin-bottom: 4%;
+    margin-right: 20%;
+    padding-left: 40vw;
+  }
+  .experience_subtitle {
+    text-align: left;
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 1.5em;
+    padding-left: 10vw;
+  }
+  
+  .experience_information {
+    color: black;
+    text-align: left;
+    grid-column: 3 / span 3;
+    grid-row: 8 / span 1;
+    font-size: 1em;
+    margin-bottom: 4%;
+    padding-left: 10vw;
+  }
+  
+  .involvement_subtitle {
+    text-align: left;
+    grid-column: 4 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 1.5em;
+    padding-left: 40vw;
+  }
+  
+  .involvement_information {
+    color: black;
+    text-align: left;
+    grid-column: 4 / span 3;
+    grid-row: 8 / span 1;
+    font-size: 1em;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    padding-left: 40vw;
+  }
   
   /*Your code here again.*/ 
   /*Add media query to handle reduced-motion*/
