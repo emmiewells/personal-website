@@ -340,12 +340,11 @@ footer{
 @media screen and (min-width: 850px){
   /* Navbar */
   .headshot {
-    grid-column: 3 / span 1;
-    grid-row: 7 / span 2;
-    width: fit-content;
-    height: auto;
-    border: 5px solid black;
-    padding: 2em;
+    grid-column: center;
+    grid-row: center;
+    width: 500;
+    height: 600;
+    
   }
   .welcome{
     grid-row: 7 span 2;
@@ -435,6 +434,41 @@ footer{
     margin-right: 20%;
     padding-left: 40vw;
   }
+  /* About page */
+.about_contain {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.about_stretch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about_text_stretch {
+  max-width: 350px;
+}
+
+.emmie_wells {
+  border-image: 5px solid black;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+}
+
+.about_title {
+  font-size: 2em;
+}
+
+.page_footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+
+
   
   /*Your code here again.*/ 
   /*Add media query to handle reduced-motion*/
