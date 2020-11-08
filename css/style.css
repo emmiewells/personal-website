@@ -100,7 +100,7 @@ header{
     display: grid;
     grid-template-columns: 4fr 1.5fr 3fr 1fr .5fr;
     grid-template-rows: 1% auto auto auto auto;
-    grid-row-gap: 15px;
+    grid-row-gap: 10px;
   }
   .welcome {
     text-align: center;
@@ -121,7 +121,7 @@ header{
     grid-column: center;
     grid-row: center;
     width: 500;
-    height: 500;
+    height: 600;
   }
 
   /* About Page */
