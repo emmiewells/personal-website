@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15pt;
-    background-color: #f3ede1;
+    background-color: #f0f0f0;
     min-height: : 100%;
 }
 
@@ -23,7 +23,7 @@ p {
   font-family: 'Playfair Display', serif;
 }
 header{
-    background: #f3ede1;
+    background: #f0f0f0;
     display:flex;
     justify-content: space-between;
 
@@ -36,7 +36,7 @@ header{
 .active-page{
     background-color: #f3ede1;
     text-transform: uppercase;
-    color:#525248;
+    color:#a1a199;
 }
 
 .sidenav{
@@ -46,7 +46,7 @@ header{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #525248;
+    background-color: #a1a199;
     overflow-x: hidden;
     transition: 0.5s;
     padding: top 60px;
@@ -65,7 +65,7 @@ header{
   }
   
   .sidenav a:hover {
-    color: #f3ede1;
+    color: #f0f0f0;
     text-transform: uppercase;
   }
   

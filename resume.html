@@ -7,16 +7,35 @@
 
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-</head>
-<body>
-  <header>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html" class= 'inactive-page'>Home</a>
-      <a href="about.html" class= 'inactive-page'>About</a>
-      <a href="portfolio.html" class= 'active-page'>Portfolio</a>
-      <a href="media.html" class = 'inactive-page'>Media</a>
-      <a href="contact.html" class= 'inactive-page'>Contact</a>
-    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Media</title>
+  </head>
+  <body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+          <a href="index.html" class= 'inactive-page'>Home</a>
+          <a href="about.html" class= 'inactive-page'>About</a>
+          <a href="resume.html" class= 'active-page'>Resume</a>
+          <a href="media.html" class = 'inactive-page'>Media</a>
+          <a href="contact.html" class= 'inactive-page'>Contact</a>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+            document.getElementById("main").style.marginLeft = "200px";
+          }
+        
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+         }
+         </script>
+        <h1 class="full_name"> Emmie Wells </h1>
+        <div id="main">
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        </div>
+        </div>
+        <a class = "skip" href="#skip">Skip to Main Content</a>
+      </header>
+      <main class="about" id="skip" tabindex="0">
