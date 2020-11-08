@@ -59,13 +59,13 @@ header{
     padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f3ede1;
+    color: black;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #black;
+    color: black;
     text-transform: uppercase;
   }
   
@@ -113,8 +113,8 @@ header{
     grid-column: 2 / span 1;
     grid-row: 9 / span 2;
     font-size: smaller;
-    border: 5px #f0f0f0
-    paddin: 2em;
+    border: 5px #f0f0f0;
+    padding: 2em;
   }
   
   .headshot {
@@ -125,7 +125,7 @@ header{
   }
 
   /* About Page */
-  .about_contain {
+  /*.about_contain {
     display: flex;
     flex-direction: column;
     align-items: center;
