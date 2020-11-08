@@ -28,7 +28,7 @@ header{
     justify-content: space-between;
 
 }
-.name_title{
+.full_name{
     font-size: 1em;
     order: 1;
 }
@@ -125,17 +125,19 @@ header{
   }
 
   /* About Page */
-  /*.about_contain {
+  .about_contain {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .emmie_wells {
-    grid-column: center;
-    grid-row: center;
-    width: 600;
+    max-width: : 100%;
     height: 500;
+    width: 600;
+    margin-top: 1em;
+    align-self: center;
+  
   }
   
   .about_stretch {
