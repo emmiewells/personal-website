@@ -34,9 +34,9 @@ header{
 }
 
 .active-page{
-    background-color: #f3ede1;
+    background-color: black;
     text-transform: uppercase;
-    color:#a1a199;
+    color:#f0f0f0;
 }
 
 .sidenav{
@@ -46,7 +46,7 @@ header{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #a1a199;
+    background-color: #f0f0f0;
     overflow-x: hidden;
     transition: 0.5s;
     padding: top 60px;
@@ -70,7 +70,7 @@ header{
   }
   
   .sidenav a:active {
-    color: #525248;
+    color:black;
     text-transform: uppercase;
   }
   
@@ -113,6 +113,8 @@ header{
     grid-column: 2 / span 1;
     grid-row: 9 / span 2;
     font-size: smaller;
+    border: 5px #f0f0f0
+    paddin: 2em;
   }
   
   .headshot {
@@ -123,10 +125,17 @@ header{
   }
 
   /* About Page */
-  /*.about_contain {
+  .about_contain {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .emmie_wells {
+    grid-column: center;
+    grid-row: center;
+    width: 500;
+    height: 500;
   }
   
   .about_stretch {
@@ -136,7 +145,7 @@ header{
   }
   
   .about_text_stretch {
-    max-width: 300px;
+    max-width: 400px;
   }
 
 .about_title {
