@@ -1,10 +1,9 @@
 body{
     font-family: 'Playfair Display', serif;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 15pt;
-    background-color: #e2e2e2;
+    background-color: #f3ede1;
     min-height: : 100%;
 }
 
@@ -17,35 +16,37 @@ h1{
 h2{
     font-size: 1.5em;
     text-align: center;
-    padding: 5px;
+    padding: 4px;
 }
-
+p {
+  padding: 0 20px;
+  font-family: 'Playfair Display', serif;
+}
 header{
-    background: #e2e2e2;
-    border-bottom: 1px white;
+    background: #f3ede1;
     display:flex;
     justify-content: space-between;
 
 }
-.name_title {
-    font-size: 1;
+.name_title{
+    font-size: 1em;
     order: 1;
 }
 
 .active-page{
-    background-color: #e2e2e2;
+    background-color: #f3ede1;
     text-transform: uppercase;
-    color: #e5b25d;
+    color:#525248;
 }
 
 .sidenav{
     height: 100%;
-    width: 200px
+    width: 200px;
     position: fixed;
     z-index: 1;
-    top: 0
+    top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #525248;
     overflow-x: hidden;
     transition: 0.5s;
     padding: top 60px;
@@ -57,19 +58,19 @@ header{
 .sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #e2e2e2;
+    font-size: 20px;
+    color: #f3ede1;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #f3ede1;
     text-transform: uppercase;
   }
   
   .sidenav a:active {
-    color: #f1f1f1;
+    color: #525248;
     text-transform: uppercase;
   }
   
@@ -78,7 +79,7 @@ header{
     padding: 16px;
   }
   a.skip{
-    background: white;
+    background: #f3ede1;
     right: 0;
     padding: 6px;
     position: absolute;
@@ -90,12 +91,12 @@ header{
   
   a.skip:focus{
     top:20px;
-    color: #e5b25d;
+    color: #525248;
     text-decoration-style: solid;
   }
   
   /* Home Page */
-  .card_contain {
+  /*.card_contain {
     display: grid;
     grid-template-columns: 4fr 1.5fr 3fr 1fr .5fr;
     grid-template-rows: 1% auto auto auto auto;
@@ -137,7 +138,7 @@ header{
   }
   
   /* About Page */
-  .about_contain {
+  /*.about_contain {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,7 +158,7 @@ header{
   font-size: 2em;
 }
 /* Media page */
-.media_contain {
+/*.media_contain {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 1fr auto auto auto auto auto auto auto auto auto auto 5%;
@@ -225,7 +226,7 @@ header{
   }
     
   /* Resume Page */
-  .resume_contain {
+  /*.resume_contain {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr 3fr 3fr 1fr;
     grid-template-rows: 1% auto auto auto auto auto auto auto auto auto auto 6%;
@@ -309,7 +310,7 @@ header{
   
   /* Contact page */
   
-  .form{
+  /*.form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,7 +382,7 @@ header{
   
   
     /* Navbar */
-    .picture {
+    /*.picture {
       grid-column: 3 / span 1;
       grid-row: 7 / span 2;
       width: fit-content;
@@ -464,7 +465,7 @@ header{
     }
     
     /* About page */
-    .about_contain {
+    /*.about_contain {
       display: flex;
       align-content: center;
       align-items: center;
@@ -499,7 +500,7 @@ header{
     }
   
     /* Media page */
-  .work_contain {
+  /*.work_contain {
     display: grid;
     grid-template-columns: auto 25% 25% 25% auto;
     grid-template-rows: 1fr auto auto auto 1%;
@@ -557,7 +558,7 @@ header{
     }
     /*Your code here again.*/
     /*You will want four selectors*/  
-    body{
+   /* body{
       background-image: none;
     }
   
@@ -579,9 +580,10 @@ header{
   
   /*Your code here again.*/ 
   /*Add media query to handle reduced-motion*/
-  @media screen and (prefers-reduced-motion: reduce) {
+  /*@media screen and (prefers-reduced-motion: reduce) {
     #logo{
       /*Your code here.*/
-      animation: none;
+     /* animation: none;
    }
    }
+   

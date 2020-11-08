@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
 
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
-    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>About</title>
   </head>
   <body>
     <header>
       <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
         <a href="index.html" class= 'inactive-page'>Home</a>
         <a href="about.html" class= 'active-page'>About</a>
-        <a href="portfolio.html" class= 'inactive-page'>Portfolio</a>
+        <a href="resume.html" class= 'inactive-page'>Resume</a>
         <a href="media.html" class = 'inactive-page'>Media</a>
         <a href="contact.html" class= 'inactive-page'>Contact</a>
       </div>
       <script>
         function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("mySidenav").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "200px";
         }
         
         function closeNav() {
@@ -31,23 +31,24 @@
           document.getElementById("main").style.marginLeft= "0";
         }
         </script>
-      <h1 class="name_title"> Emmie Wells </h1>
+      <h1 class="full_name"> Emmie Wells </h1>
       <div id="main">
         <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-        </div>
+      </div>
       </div>
       <a class = "skip" href="#skip">Skip to Main Content</a>
     </header>
-<main class="about" id="skip" tabindex="0">
-  <div class = "about_contain">
-    <h1 class="about_title"> Hi, I'm Emmie </h1>
-    <div class = "about_stretch">
-      <p class = "about_text_stretch"> I am an Information Science Major and Entrepreneurship Minor at the University of Michigan. I am soaking up every opportunity I can in college, from classes to my involvement in campus clubs and activities. My passion lies in the web created by the intersection of design, culture, and creativity, and I strive to understand how these things play into the human experience and workforce. In the classroom, I thrive in the context of collaborative projects, and pride myself on the three things I bring into projects; an open mind, creativity, and hard work. </p>
+  <main class="about" id="skip" tabindex="0">
+    <div class = "about_contain">
+      <img class="emmie_wells" img src="images/emmie-wells.JPG" alt= "Photo of Emmie Wells"/>
+      <h1 class="about_title"> Hi, I'm Emmie </h1>
+      <div class = "about_stretch">
+        <p class = "about_text_stretch"> I am an Information Science Major and Entrepreneurship Minor at the University of Michigan. I am soaking up every opportunity I can in college, from classes to my involvement in campus clubs and activities. My passion lies in the web created by the intersection of design, culture, and creativity, and I strive to understand how these things play into the human experience and workforce. In the classroom, I thrive in the context of collaborative projects, and pride myself on the three things I bring into projects; an open mind, creativity, and hard work. </p>
+      </div>
     </div>
-  </div>
-</main>
-<footer class = "resume_footer">
-  <p class = "footer_home"> Emmie Wells | emwells @umich.edu</p>
-</footer>
-</body>
+  </main>
+  <footer class = "page_footer">
+     <p class = "contact_footer"> Emmie Wells | emwells @umich.edu</p
+    </footer>
+  </body>
 </html>

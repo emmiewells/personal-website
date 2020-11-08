@@ -7,23 +7,23 @@
 
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Contact</title>
   </head>
   <body>
     <header>
       <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
         <a href="index.html" class= 'inactive-page'>Home</a>
         <a href="about.html" class= 'inactive-page'>About</a>
-        <a href="portfolio.html" class= 'inactive-page'>Portfolio</a>
+        <a href="resume.html" class= 'inactive-page'>Resume</a>
         <a href="media.html" class = 'inactive-page'>Media</a>
         <a href="contact.html" class= 'active-page'>Contact</a>
       </div>
       <script>
         function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("mySidenav").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "200px";
         }
         
         function closeNav() {
@@ -31,43 +31,61 @@
           document.getElementById("main").style.marginLeft= "0";
         }
         </script>
-      <h1 class="name_title"> Emmie Wells </h1>
+      <h1 class="full_name"> Emmie Wells </h1>
       <div id="main">
-          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-      </div>
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
       </div>
       <a class = "skip" href="#skip">Skip to Main Content</a>
     </header>
-<main class="about" id="skip" tabindex="0">
-  <h1>contact</h1>
+    <main class="about" id="skip" tabindex="0">
+  <h1>Contact</h1>
     <img class="pic" src="images/headshot.JPG" alt="Emmie Wells"/>
-    <form>
+    <form action="https://formspree.io/f/mjvprbea" method="POST">
       <fieldset>
-        <legend>Sample Form</legend>
-        Your Name
-        <input type="text" placeholder="Enter Your Name">
+        <legend> Let's Talk! </legend>
+        <label for="name_id">Your Name</label>
+        <input type="text" 
+          name = "name"
+          id = "name_id"
+          placeholder="Enter Your Name" required>
     
-        Your Email
-        <input type="email">
+       
+        <label for="email_id">Your Email</label>
+        <input type="email" 
+        name = "Email"
+        id = "email_id"
+        placeholder="Enter Your Email" required>
     
     
-        Your Phone Number
-        <input type="tel">
-        <div><span>Format: 123-456-7890</span></div>
+        <label for="phone_id">Your Phone Number</label>
+        <input type="tel"
+        name="phone"
+        id="phone_id"
+        placeholder="xxx-xxx-xxxx"
+        pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required>
+        <div><span>Format: xxx-xxx-xxxx</span></div>
+    
+        <label for="msg">Leave A Message</label> 
+    
+        <textarea name = "Message"
+        id = "msg"
+        placeholder="Enter your message" required ></textarea>
     
     
-        Leave A Message
+        <input type="checkbox" name = "Remember" id="cBox">
+        <label for = "cBox">Remember me</label>
     
-        <textarea></textarea>
-    
-        <input type="checkbox"> 
-        Remember me
-    
-        <input type="submit" >
+        <input type="submit" 
+        value = "Send">
       </fieldset>
      </form>
     </body>
-    <footer class = "resume_footer">
-      <p> Emmie Wells | emwells@umich.edu</p> 
-    </footer>
+    <footer class = "contact_footer">
+      <p> Emmie Wells | emwells@umich.com </p>
+      </footer>
     </html>
+
+
+
+

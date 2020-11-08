@@ -7,62 +7,69 @@
 
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Media</title>
   </head>
   <body>
     <header>
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html" class= 'inactive-page'>Home</a>
-        <a href="about.html" class= 'inactive-page'>About</a>
-        <a href="portfolio.html" class= 'inactive-page'>Portfolio</a>
-        <a href="media.html" class = 'active-page'>Media</a>
-        <a href="contact.html" class= 'inactive-page'>Contact</a>
-      </div>
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-        }
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+          <a href="index.html" class= 'inactive-page'>Home</a>
+          <a href="about.html" class= 'inactive-page'>About</a>
+          <a href="resume.html" class= 'inactive-page'>Resume</a>
+          <a href="media.html" class = 'active-page'>Media</a>
+          <a href="contact.html" class= 'inactive-page'>Contact</a>
+        </div>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+            document.getElementById("main").style.marginLeft = "200px";
+          }
         
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-        }
-        </script>
-      <h1 class="name_title"> Emmie Wells</h1>
-      <div id="main">
-          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+         }
+         </script>
+        <h1 class="full_name"> Emmie Wells </h1>
+        <div id="main">
+            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        </div>
+        </div>
+        <a class = "skip" href="#skip">Skip to Main Content</a>
+      </header>
+      <main class="about" id="skip" tabindex="0">
+
+      <div class="grid-container">
+      <div class="media_contain">
+        <figure class="Butterflies">
+          <img class = "resize" src="images/butterflies.JPG" alt="Image of butterflies print"/>
+        </figure>
+        <figure class="Ferris Coffee">
+          <img class = "resize" src="images/ferris.JPG" alt=" State of Michigan Art at Ferris Coffee"/>
+        </figure>
+        <figure class="Ross School of Business">
+         <img class = "resize" src="images/ross.JPG" alt="The University of Michigan Ross School of Business"/>
+        </figure>
+        <figure class="Angell Hall Image I">
+          <img class = "resize" src="images/angell-hall-1.JPG" alt="Angell Hall at the University of Michigan"/>
+        </figure>
+        <figure class="Buechner Quote">
+          <img class = "resize" src="images/buechner-quote.JPG" alt="Quote by Buechner"/>
+        </figure>
+        <figure class = "Michigan Squirrel">
+          <img class = "resize" src="images/michigan-squirrel.JPG" alt="A squirrel on campus"/>
+        </figure>
+        <figure class = "The hill">
+          <img class = "resize" src= "images/the-hill.JPG" alt= "The hill at the University of Michigan"/>
+        </figure>
+        <figure class = "Spring Sweet Summer">
+          <img class = "resize" src="images/ss-summer.JPG" alt= "Downtown Grand Rapids"/>
+        </figure>
       </div>
-      </div>
-      <a class = "skip" href="#skip">Skip to Main Content</a>
-    </header>
-    <main class="about" id="skip" tabindex="0">
-    <h1> Photos </h1>
-    <div class="work_contain">
-      <figure class="butterflies">
-        <img class = "resize" src="images/butterflies.JPG" alt="Image of butterflies"/>
-      </figure>
-      <figure class="ferris">
-        <img class = "resize" src="images/ferris.JPG" alt=" State of Michigan Art at Ferris Coffee"/>
-      </figure>
-      <figure class="ross">
-        <img class = "resize" src="images/ross.JPG" alt="The University of Michigan Ross School of Business"/>
-      </figure>
-      <figure class="angell-hall-1">
-        <img class = "resize" src="images/angell-hall-1.JPG" alt="Angell Hall at UM"/>
-      </figure>
-      <figure class="buechner">
-        <img class = "resize" src="images/buechner-quote.JPG" alt="Quote by Buechner"/>
-      </figure>
-      <figure class = "angell-hall-2_img">
-        <img class = "resize" src="images/angell-hall-2.JPG" alt="Image of Angell Hall"/>
-      </figure>
-    </div>
-    </main>
-  <footer>
-    <p class = "footer"> Emmie Wells | emwells@umich.edu</p>
-  </footer>
-</body>
+      </main>
+    <footer>
+      <p class = "contact_footer"> Emmie Wells | emwells@umich.edu</p>
+    </footer>
+  </body>
 </html>
