@@ -116,9 +116,9 @@ header{
   }
   
   .headshot {
-    grid-column: 2 / span 1;
-    grid-row: 7 / span 2;
-    width: 400;
+    grid-column: center;
+    grid-row: center;
+    width: 500;
     height: 500;
   }
 
