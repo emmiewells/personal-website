@@ -58,7 +58,7 @@ header{
 .sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     color: #f3ede1;
     display: block;
     transition: 0.3s;
@@ -96,19 +96,19 @@ header{
   }
   
   /* Home Page */
-  /*.card_contain {
+  .introduction_contain {
     display: grid;
     grid-template-columns: 4fr 1.5fr 3fr 1fr .5fr;
     grid-template-rows: 1% auto auto auto auto;
     grid-row-gap: 15px;
   }
-  .hi {
-    text-align: left;
+  .welcome {
+    text-align: center;
     grid-column: 2 / span 1;
     grid-row: 6 / span 1;
   }
   
-  .welcome {
+  .welcome_introduction{
     text-align: right;
     grid-column: 2 / span 1;
     grid-row: 9 / span 2;
@@ -116,27 +116,12 @@ header{
   }
   
   .headshot {
-    grid-column: center;
-    grid-row: center;
-    width: fit-content;
-    height: auto;
-    padding: 2em;
-  }
-  .welcome {
-    text-align: right;
-    grid-column: 2 / span 1;
-    grid-row: 9 / span 2;
-    font-size: smaller;
-  }
-  
-  .picture {
     grid-column: 2 / span 1;
     grid-row: 7 / span 2;
     width: fit-content;
     height: auto;
-    padding: 2em;
   }
-  
+
   /* About Page */
   /*.about_contain {
     display: flex;
