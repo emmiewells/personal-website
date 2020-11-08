@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-size: 15pt;
     background-color: #f0f0f0;
-    min-height: : 100%;
+    min-height: 100%;
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     padding: 4px;
 }
@@ -34,9 +34,9 @@ header{
 }
 
 .active-page{
-    background-color: black;
+    background-color: #f0f0f0;
     text-transform: uppercase;
-    color:#f0f0f0;
+    color:black;
 }
 
 .sidenav{
