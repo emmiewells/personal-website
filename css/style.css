@@ -243,7 +243,7 @@ header{
     font-size: 1.5em;
   }
   
-  .education_info {
+  .education_information {
     color:black;
     text-align: left;
     grid-column: 2 / span 3;
