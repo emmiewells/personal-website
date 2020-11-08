@@ -133,8 +133,8 @@ header{
 
   .emmie_wells {
     max-width: : 100%;
-    height: 500;
-    width: 500;
+    height: 400;
+    width: 400;
     margin-top: 1em;
     align-self: center;
   
@@ -222,7 +222,7 @@ header{
   }
     
   /* Resume Page */
-  /*.resume_contain {
+  .resume_contain {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr 3fr 3fr 1fr;
     grid-template-rows: 1% auto auto auto auto auto auto auto auto auto auto 6%;
@@ -244,13 +244,13 @@ header{
   }
   
   .education_info {
-    color: white;
+    color:black;
     text-align: left;
     grid-column: 2 / span 3;
     grid-row: 4 / span 1;
     font-size: 1em;
     margin-bottom: 4%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
   
   .skills_subtitle {
@@ -260,14 +260,14 @@ header{
     font-size: 1.5em;
   }
   
-  .skills_info {
-    color: white;
+  .skills_information {
+    color:black;
     text-align: left;
     grid-column: 2 / span 3;
     grid-row: 6 / span 1;
     font-size: 1em;
     margin-bottom: 4%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
   
   .experience_subtitle {
@@ -277,31 +277,31 @@ header{
     font-size: 1.5em;
   }
   
-  .experience_info {
-    color: white;
+  .experience_information {
+    color:black;
     text-align: left;
     grid-column: 2 / span 3;
     grid-row: 8 / span 1;
     font-size: 1em;
     margin-bottom: 4%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
   
-  .leadership_subtitle {
+  .involvement_subtitle {
     text-align: left;
     grid-column: 2 / span 1;
     grid-row: 9 / span 1;
     font-size: 1.5em;
   }
   
-  .leadership_info {
-    color: white;
+  .involvement_information {
+    color:black;
     text-align: left;
     grid-column: 2 / span 3;
     grid-row: 10 / span 1;
     font-size: 1em;
     margin-bottom: 2%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
   }
   
   /* Contact page */
