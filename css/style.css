@@ -475,7 +475,7 @@ footer{
   right: 0;
 }
 /* Media Page */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px;) {
 
   .grid-container{
     display: grid;
@@ -546,8 +546,8 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(9, 5vw);
-    grid-gap: 10px;
-  }
+    grid-gap: 10px; 
+      }
 
 /*@media print { 
   .card {
