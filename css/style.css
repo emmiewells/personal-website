@@ -111,7 +111,7 @@ header{
   }
 
   .welcome {
-    text-align: center;
+    text-align: l;
     grid-column: 2 / span 1;
     grid-row: 6 / span 1;
   }
@@ -124,10 +124,10 @@ header{
   }
   
   .headshot {
-    grid-column: center;
-    grid-row: center;
-    width: 500;
-    height: 600;
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 2;
+    width: fit-content;
+    height: auto;
   }
 
   /* About Page */
