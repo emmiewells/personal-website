@@ -234,6 +234,7 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;}
+  }
 
   /* Resume Page */
   .resume_contain {
@@ -344,7 +345,7 @@ footer{
   right: 0;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 500px){
   
   /* Navbar */
 
@@ -476,7 +477,6 @@ footer{
   right: 0;
 }
 /* Media Page */
-@media only screen and (max-width: 500px;) {
 
   .grid_container{
     display: grid;
@@ -549,6 +549,7 @@ footer{
     grid-template-rows: repeat(9, 5vw);
     grid-gap: 10px; 
       }
+}
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
