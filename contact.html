@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYJZ8M45HB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PYJZ8M45HB');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
@@ -8,35 +17,20 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Contact</title>
+    <title>About</title>
   </head>
   <body>
-    <header>
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
-        <a href="index.html" class= 'inactive-page'>Home</a>
-        <a href="about.html" class= 'inactive-page'>About</a>
-        <a href="resume.html" class= 'inactive-page'>Resume</a>
-        <a href="media.html" class = 'inactive-page'>Media</a>
-        <a href="contact.html" class= 'active-page'>Contact</a>
-      </div>
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "200px";
-          document.getElementById("main").style.marginLeft = "200px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-        }
-        </script>
-      <h1 class="full_name"> Emmie Wells </h1>
-      <div id="main">
-        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-      </div>
-      <a class = "skip" href="#skip">Skip to Main Content</a>
-    </header>
+    <nav>
+        <ul>
+          <div class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="media.html">Media</a></li> 
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <main class="about" id="skip" tabindex="0">
   <h1>Contact</h1>
     <img class="contact_photo" src="images/headshot.JPG" alt="Emmie Wells" width="400" height="400"/>
@@ -80,11 +74,17 @@
         value = "Send">
       </fieldset>
      </form>
-     <footer class = "contact_footer">
-      <p> Emmie Wells | emwells@umich.com </p>
-     </footer>
+
+
+
+   
+    </main>
+      <footer>
+        <p> Emmie Wells </p>
+      </footer>
     </body>
-    </html>
+</html>
+     
 
 
 
