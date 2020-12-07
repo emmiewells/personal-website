@@ -14,7 +14,7 @@ display: flex
 }
 
 .navigation {
-  background-color:#CB0030;
+  background-color:#EA0037;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -80,14 +80,14 @@ p{
 }
 /* footer */
 footer {
-  color: #CB0030;
+  color: #EA0037;
 }
 
 .media {
   position: absolute;
   text-align: center;
   padding-bottom: 30px;
-  background-color: #cb0030;
+  background-color: #EA0037;
   width: 100%;
   padding-top: 20px;
 }
@@ -105,7 +105,12 @@ li a{
 }
 
 @media screen and (min-width: 1000px){
- 
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 10px;
+      }
   .container img {  
     width: 100%;
     height: 100%;
@@ -129,5 +134,5 @@ li a{
     @media screen and (prefers-reduced-motion: reduce){
       .cherry{
           animation: none;
+        }
     
-      }
