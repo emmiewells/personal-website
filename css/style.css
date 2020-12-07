@@ -17,13 +17,13 @@ body{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: center;
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 30px 30px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   border-bottom: 3px solid transparent;
 }
 
@@ -44,7 +44,6 @@ nav li{
 }
 
 h1{
-  display: flex;
   font-size: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
