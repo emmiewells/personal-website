@@ -12,7 +12,6 @@ body{
 .navigation {
   background-color:#EA0037;
   overflow: hidden;
-  border-radius: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -28,12 +27,12 @@ body{
 }
 
 .topnav a:hover {
-  border-bottom: 3px white;
+  border-bottom: 5px white;
 }
 
 .topnav a.active {
-  border-bottom: 3px #B8002B;
-  text-decoration-style: solid;
+  border-bottom: 5px black;
+  
   
 }
 nav li{
@@ -78,17 +77,17 @@ p{
 
 
 footer p {
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   padding-bottom: 0px;
   padding-top: 50px;
   align-items: flex-end;
-  color: white
+  color: black
 }
 .media {
   position: absolute;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background-color: #EA0037;
   width: 100%;
   padding-top: 20px;
