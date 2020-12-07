@@ -79,12 +79,20 @@ p{
 
 
 footer p {
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 0px;
   padding-top: 50px;
   align-items: flex-end;
-  color: #EA0037
+  color: white
+}
+.media {
+  position: absolute;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #EA0037;
+  width: 100%;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 1000px){
@@ -186,16 +194,107 @@ footer p {
     
   }
 
+  @media only screen and (max-width: 500px) {
 
-
-
-
-
-
-
+    .grid-container{
+      display: grid;
+      grid-template-columns: repeat(14, 1fr);
+      grid-template-rows: repeat(12, 5vw);
+      grid-gap: 15px;
+        }
+  .grid-container img {  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+  
+    .grid_butterflies {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    }
+    .grid_michigan{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    }
+    .grid_ross{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    }
+    .grid_angell_1{
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    }
+    .grid_quote{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 12;
+    }
+    .grid_squirrel{
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 6;
+      grid-row-end: 9;
+    }
+    .grid_hill{
+      grid-column-start: 9;
+      grid-column-end: 12;
+      grid-row-start: 6;
+      grid-row-end: 9;
+    }
+    .grid_summer{
+      grid-column-start: 9;
+      grid-column-end: 12;
+      grid-row-start: 9;
+      grid-row-end: 12;
+    }
+    .grid_angell_2{
+      grid-column-start: 12;
+      grid-column-end: 14;
+      grid-row-start: 1;
+      grid-row-end: 12;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(9, 5vw);
+      grid-gap: 10px;
+        }
+  .container img {  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+  
+    .grid-a {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    }
+    .grid-b{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    }
+    .grid-c{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    }
+    }
+    
     @media screen and (prefers-reduced-motion: reduce){
       .cherry{
           animation: none;
-        }
     
-      
+      }
+    }
