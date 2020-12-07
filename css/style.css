@@ -12,7 +12,14 @@ body{
 .flex-container {
 display: flex
 }
-
+.logo img {
+  display: inline-flex;
+  align-content: flex-start;
+  margin-left: 0px;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
 .navigation {
   background-color:#EA0037;
   overflow: hidden;
