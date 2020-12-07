@@ -111,29 +111,31 @@ li a{
     grid-template-rows: repeat(9, 5vw);
     grid-gap: 10px;
       }
-  .container img {  
-    width: 100%;
-    height: 100%;
-    object-fit: cover;}
+.container img {  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;}
+
+  .grid-a {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  }
+  .grid-b{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  }
+  .grid-c{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  }
   
-    .grid-a {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 9;
-    }
-    .grid-b{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 9;
-    }
-    .grid-c{
-      grid-column-start: 3;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 9;
-      }
+}
 
 
 
