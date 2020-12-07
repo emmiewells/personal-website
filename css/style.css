@@ -1,22 +1,25 @@
+/* General style elements */
 body{
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     font-size: 15pt;
     background-color: #f0f0f0;
-    min-height: 100%;
+    min-height: 1000px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1{
     font-size: 2em;
     text-align: center;
-    line-height: 2;
+    padding: 15px 0px;
 }
 
 h2{
     font-size: 1.5em;
     text-align: center;
-    padding: 5px;
+    padding: 15px 0px;
 }
 
 b{
@@ -32,75 +35,102 @@ p {
 header{
     background: #f0f0f0;
     display:flex;
-    justify-content: space-between;
+    flex-flow: column nowrap;
 
 }
-.full_name{
-    font-size: 1em;
-    order: 1;
+
+nav{
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-top: 2px darkgray;
+  border-bottom: 2px darkgray;
+}
+.navbar{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  align-items: center;
+}
+nav a{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 0.85em;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+.nav_links{
+  text-align: center;
+  padding: 5px 0px;
 }
 
-.active-page{
-    background-color: #f0f0f0;
-    text-transform: uppercase;
-    color:black;
+#current{
+  background-color: #545455;
+  font-weight: bolder;
+  font-size: 1.35em;
+  width: 100%;
+}
+#current a{
+  color:black;
 }
 
-.sidenav{
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #f0f0f0;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    order: -1;
-    align-items:flex-end;
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+  
+
+
+
+.about_page{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+  padding: 100px 0px;
+}
+.homepage{
+  grid-column: 1/-1;
+  grid-row: 4/5;
+}
+.welcome{
+  font-size: 1.5em;
+  padding: 2vw 10vw;
+}
+.introduction{
+  padding: 2vw 10vw;
 }
 
-.sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: black;
-    text-transform: uppercase;
-  }
-  
-  .sidenav a:active {
-    columns: #f0f0f0;
-    text-transform: uppercase;
-  }
-  
-  .main {
-    transition: margin-left .5s;
-    padding: 16px;
-  }
 
-  a.skip{
-    background: #f0f0f0;
-    right: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-  }
-  
-  a.skip:focus{
-    top:20px;
-    color: #f0f0f0;
-    text-decoration-style: solid;
-  }
+
+
+
+/* footer */
+footer {
+  color: #f0f0f0;
+}
+
+.media {
+  position: absolute;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #f0f0f0;
+  width: 100%;
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 5px 5px;
+  display: inline-block;
+  font-size: 28px;
+  padding: 10px 10px;
+}
+
+li a{
+  color: black;
+}
+
   
   /* Home Page */
   .introduction_contain {

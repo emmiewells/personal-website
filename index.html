@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYJZ8M45HB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PYJZ8M45HB');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
@@ -11,43 +20,42 @@
     <title>About</title>
   </head>
   <body>
-    <header>
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
-        <a href="index.html" class= 'inactive-page'>Home</a>
-        <a href="about.html" class= 'inactive-page'>About</a>
-        <a href="resume.html" class= 'inactive-page'>Resume</a>
-        <a href="media.html" class = 'inactive-page'>Media</a>
-        <a href="contact.html" class= 'inactive-page'>Contact</a>
-      </div>
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-        }
+<header>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>	
+        <div class = "title">
+                <h1 class = "full_name">Emmie Wells</h1>
+        </div>
+        <nav>
+                <ul class = "navbar">
+                        <li class = "navigation" id = "current"><a href="index.html">Home</a></li>
+                        <li class = "navigation"><a href="about.html">About</a></li>
+                        <li class = "navigation"><a href="resume.html">Resume</a></li>
+                        <li class = "navigation"><a href="media.html">Media</a></li>
+                        <li class = "navigation"><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+</header>
+<main id = "main" class = "about_page">
+<img class="headshot" img src="images/headshot.JPG" alt= "Photo of Emmie Wells" width="100"/>
+<div class = "homepage">
+        <h1 class="welcome">Welcome!</h1>
+        <p class = "introduction"> My name is Emmie Wells</p>
+        <p class = "introduction"> Currently a junior at the <a href="https://www.si.umich.edu/" target= "_blank">University of Michigan School of Information</a> exploring the intersection between people, technology and the world.</p>
+        <p class = "introduction"> I am passionate about using digital media to discover the many ways to enhance user experiences, the building of communities and empowering of creativity.</p>
+</div>
+</main>
+
+  <footer>
+    <div class="media">
+      <ul>
         
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-        }
-        </script>
-      <h1 class="full_name"> Emmie Wells </h1>
-      <div id="main">
-        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-          </div>
-      </div>
-    </header>
-  <main class="about" id="skip" tabindex="0">
-    <div class = "introduction_contain">
-      <img class="headshot" img src="images/headshot.JPG" alt= "Photo of Emmie Wells" width="400" height="400"/>
-      <h1 class="welcome"> Welcome! </h1>
-      <div class = "welcome_stretch"> 
-        <p class = "welcome_text_stretch"> I'm a student at the University of Michigan Graduating in May 2022. </p>
-      </div>
+        <li><a href="https://www.linkedin.com/in/emmie-wells/" class = "footer_icon" aria-label="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/emmiewells" class = "footer_icon" aria-label="Github" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/emmiewells/" class = "footer_icon" aria-label="Instagram" target="_blank"><i class="fa fa-instagram-official"></i></a></li>
+
+      </ul>
     </div>
-  </main>
-  <footer class = "page_footer">
-     <p class = "contact_footer"> Emmie Wells | emwells @umich.edu</p
+
   </footer>
   </body>
 </html>
