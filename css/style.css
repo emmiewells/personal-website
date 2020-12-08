@@ -22,9 +22,8 @@ body{
 .navigation a {
   float: center;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 50px 50px;
   text-decoration: none;
   border-bottom: 3px solid transparent;
 }
@@ -34,7 +33,7 @@ body{
 }
 
 .navigation a.active {
-  border-bottom: 8px black;
+  border-bottom: 8px #ea003756;
   
   
 }
