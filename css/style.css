@@ -40,6 +40,8 @@ nav li{
   flex-grow: inherit;
   justify-content: flex-start;
   padding-right: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h1{
