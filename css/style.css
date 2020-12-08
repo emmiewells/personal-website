@@ -95,6 +95,52 @@ footer p {
   padding-top: 20px;
 }
 
+/* Resume */
+
+.Resume{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 15vw;
+  padding-bottom: 50px;
+}
+.education{
+  padding: 2vw 0vw;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: center;
+}
+.education h2{
+  align-self: center;
+}
+.content{
+  align-self: center;
+}
+.skills{
+  padding: 2vw 2.5vw 0vw 0vw;
+  grid-column: 1/span 1;
+  grid-row: 2/3;
+}
+.experience{
+  padding: 2vw 0vw 0vw 2.5vw;
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
+.involvement{
+  padding: 2vw 0vw;
+  grid-column: 1/-1;
+  grid-row: 3/4;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1000px){
  
     .grid-container{
