@@ -19,7 +19,7 @@ body{
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.navigation a {
   float: center;
   display: block;
   color: white;
@@ -29,11 +29,11 @@ body{
   border-bottom: 3px solid transparent;
 }
 
-.topnav a:hover {
+.navigation a:hover {
   border-bottom: 8px white;
 }
 
-.topnav a.active {
+.navigation a.active {
   border-bottom: 8px black;
   
   
