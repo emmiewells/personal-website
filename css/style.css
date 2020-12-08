@@ -20,7 +20,7 @@ body{
 
 /* Specfic navigation styles */
 .navigation a {
-  float: center;
+  float: none;
   display: block;
   color: black;
   text-align: center;
