@@ -98,51 +98,35 @@ footer p {
   padding-top: 20px;
 }
 
+
+
+
+/* About*/
+.about_contain{
+grid-column: 2 / span 1;
+grid-row: 7 / span 2;
+width: fit-content;
+height: auto;
+padding: 2em;
+}
 /* Resume */
 
-.Resume{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0px 15vw;
-  padding-bottom: 50px;
+.resume{
+  padding: 50px 75px;
 }
-.education{
-  padding: 2vw 0vw;
-  grid-column: 1/-1;
-  grid-row: 1/2;
-  display: flex;
-  flex-flow: column nowrap;
-  align-self: center;
+.resume h3{
+  font-size: 14px;
+  padding: 5px 10px;
 }
-.education h2{
-  align-self: center;
-}
-.content{
-  align-self: center;
-}
-.skills{
-  padding: 2vw 2.5vw 0vw 0vw;
-  grid-column: 1/span 1;
-  grid-row: 2/3;
-}
-.experience{
-  padding: 2vw 0vw 0vw 2.5vw;
-  grid-column: 2/-1;
-  grid-row: 2/3;
-}
-.involvement{
-  padding: 2vw 0vw;
-  grid-column: 1/-1;
-  grid-row: 3/4;
+.resume li{
+  list-style-position: inside;
+  padding: 5px 20px;
+  font-size: 10px;
 }
 
-
-
-
-
-
-
-
+.education, .skills, .experience, .involvement{
+  padding: 10px 0px;
+}
 
 @media screen and (min-width: 1000px){
  
