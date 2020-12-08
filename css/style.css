@@ -102,31 +102,10 @@ footer p {
 
 
 /* About*/
-.about_contain{
-grid-column: 2 / span 1;
-grid-row: 7 / span 2;
-width: fit-content;
-height: auto;
-padding: 2em;
-}
+
 /* Resume */
 
-.resume{
-  padding: 50px 75px;
-}
-.resume h3{
-  font-size: 14px;
-  padding: 5px 10px;
-}
-.resume li{
-  list-style-position: inside;
-  padding: 5px 20px;
-  font-size: 10px;
-}
 
-.education, .skills, .experience, .involvement{
-  padding: 10px 0px;
-}
 
 @media screen and (min-width: 1000px){
  
