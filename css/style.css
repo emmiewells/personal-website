@@ -12,6 +12,8 @@ body{
 .navigation {
   background-color:#EA0037;
   overflow: hidden;
+  justify-content: center;
+  padding: 40px;
 }
 
 /* Style the links inside the navigation bar */
