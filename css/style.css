@@ -18,7 +18,7 @@ body{
   text-align: center;
 }
 
-/* Style the links inside the navigation bar */
+/* Specfic navigation styles */
 .navigation a {
   float: center;
   display: block;
@@ -29,11 +29,12 @@ body{
 }
 
 .navigation a:hover {
-  border-bottom: 8px white;
+  border-bottom: 8px #DDEDAA ;
 }
 
 .navigation a.active {
-  border-bottom: 8px #ea003756;
+  border-bottom: 8px white;
+  text-decoration: underline;
   
   
 }
@@ -47,7 +48,7 @@ nav li{
 }
 
 h1{
-  font-size: 70px;
+  font-size: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -101,7 +102,10 @@ footer p {
 
 
 /* About*/
+.about_contain {
 
+
+}
 /* Resume */
 
 
