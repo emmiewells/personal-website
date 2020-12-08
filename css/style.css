@@ -30,11 +30,11 @@ body{
 }
 
 .topnav a:hover {
-  border-bottom: 5px white;
+  border-bottom: 8px white;
 }
 
 .topnav a.active {
-  border-bottom: 5px black;
+  border-bottom: 8px black;
   
   
 }
