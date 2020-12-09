@@ -57,9 +57,9 @@ p{
 
 .cherry {
   animation-name: cherry-animation;
-  animation-duration: 2.5s; 
-  animation-iteration-count: 2; 
-  transform-origin: 70% 70%;      
+  animation-duration: 3s; 
+  animation-iteration-count: 1; 
+  transform-origin: 40% 40%;      
   display: inline-block;
 }
 
