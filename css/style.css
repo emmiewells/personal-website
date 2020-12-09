@@ -22,6 +22,7 @@ body{
 .navigation a {
   display: block;
   color: black;
+  padding: 2;
   text-align: center;
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -34,8 +35,6 @@ body{
 .navigation a.active {
   border-bottom: 8px solid white;
   text-decoration: underline;
-  
-  
 }
 nav li{
   display: inline-flex;
