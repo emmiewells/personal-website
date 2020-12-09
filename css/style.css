@@ -175,8 +175,6 @@ fieldset{
  
     .grid-container{
       display: grid;
-      grid-template-columns: repeat(14, 1fr);
-      grid-template-rows: repeat(12, 5vw);
       grid-gap: 15px;
         }
     .grid-container img {  
@@ -274,8 +272,6 @@ fieldset{
 
     .grid-container{
       display: grid;
-      grid-template-columns: repeat(14, 1fr);
-      grid-template-rows: repeat(12, 5vw);
       grid-gap: 15px;
         }
   .grid-container img {  
