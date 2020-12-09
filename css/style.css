@@ -118,6 +118,36 @@ footer p {
   margin-right: auto;
   width: 50%;
 }
+.contact_form{
+  font-size: 15px;
+}
+
+input[type = "text"]{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #3d405b;
+  background-color: white;
+}
+
+input[type = "email"]{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #3d405b;
+  background-color: white;
+}
+
+input[type = "submit"]{
+  padding: 8px 16px;
+  font-family: 'Playfair Display',sans-serif;
+  font-size: 15px;
+  margin: 20px 1px;
+  text-align: center;
+  border: 2px;
+  background-color: #EA0037;
+  color: black;
+}
 
 
 @media screen and (min-width: 1000px){
