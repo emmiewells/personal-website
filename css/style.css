@@ -32,7 +32,7 @@ body{
 }
 
 .navigation a.active {
-  border-bottom: 8px BLUE;
+  border-bottom: 8px solid white;
   text-decoration: underline;
   
   
