@@ -32,7 +32,7 @@ body{
 }
 
 .navigation a.active {
-  border-bottom: 8px #blue;
+  border-bottom: 8px BLUE;
   text-decoration: underline;
   
   
@@ -65,7 +65,7 @@ p{
   display: inline-block;
 }
 
-@keyframes wave-animation {
+@keyframes cherry-animation {
     0% { transform: rotate( 0.0deg) }
    10% { transform: rotate(14.0deg) }
    20% { transform: rotate(-8.0deg) }
