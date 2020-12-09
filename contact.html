@@ -36,45 +36,30 @@
         <h1>Emmie Wells <span class="cherry"> 🍒</span> </h1>
       <div class = "contact_contain">
         <img class="contact_photo" img src="images/wells-family.JPG" alt= "Photo of Emmie Wells"/>
-      <form action="https://formspree.io/f/mjvprbea" method="POST">
-      <fieldset>
-        <legend> Let's Talk! </legend>
-        <label for="name_id">Your Name</label>
-        <input type="text" 
-          name = "name"
-          id = "name_id"
-          placeholder="Enter Your Name" required>
+        <form action="https://formspree.io/f/meqpkpzr" method="POST">
+          <fieldset>
+            <legend id = "contact">Contact Form</legend>
+            <label for= "name_id">Name</label>
+             <input type="text" id = "name_id" placeholder="Full name here" name = "name" required>
+        
+            <label for = "number_id">Number</label> 
+             <input type="tel" id = "number_id" placeholder= "123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" name = "phone" required>
+        
+            <label for= "company">Company</label>
+            <input type="text" id="company" placeholder = "Company here" required>
     
-       
-        <label for="email_id">Your Email</label>
-        <input type="email" 
-        name = "Email"
-        id = "email_id"
-        placeholder="Enter Your Email" required>
-    
-    
-        <label for="phone_id">Your Phone Number</label>
-        <input type="tel"
-        name="phone"
-        id="phone_id"
-        placeholder="xxx-xxx-xxxx"
-        pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"
-        required>
-        <div><span>Format: xxx-xxx-xxxx</span></div>
-    
-        <label for="msg">Leave A Message</label> 
-    
-        <textarea name = "Message"
-        id = "msg"
-        placeholder="Enter your message" required ></textarea>
-    
-    
-        <input type="checkbox" name = "Remember" id="cBox">
-        <label for = "cBox">Remember me</label>
-    
-        <input type="submit" 
-        value = "Send">
-      </fieldset>
+            <label for= "email">Email</label> 
+          <input type = "email" id = "email" name = "email" placeholder= "janedoe@website.com" required>
+        
+        <label for = "msg">Leave a Message</label>
+          <textarea  id="msg" name = "message" placeholder="Leave a message here"></textarea>
+        
+            <label for = "check">Remember Me</label> 
+          <input type="checkbox" check = "checked" name="remember" id="check">
+        
+            <label for = "sub">Submit</label> 
+          <input type= "submit" id = "sub" value= "Save">
+          </fieldset>
      </form>
     </main>
 
