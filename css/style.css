@@ -119,19 +119,22 @@ footer p {
   width: 50%;
 }
 .contact_form{
-  font-size: 15px;
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
 }
 
 input[type = "text"]{
-  width: 100%;
+  width: 50%;
   padding: 10px;
   box-sizing: border-box;
   border: 2px solid #3d405b;
   background-color: white;
+
 }
 
 input[type = "email"]{
-  width: 100%;
+  width: 50%;
   padding: 10px;
   box-sizing: border-box;
   border: 2px solid #3d405b;
