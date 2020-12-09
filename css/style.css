@@ -139,6 +139,7 @@ input[type = "text"]{
   box-sizing: border-box;
   border: 2px solid #3d405b;
   background-color: white;
+  text-align: center;
 }
 
 input[type = "email"]{
@@ -147,6 +148,7 @@ input[type = "email"]{
   box-sizing: border-box;
   border: 2px solid #3d405b;
   background-color: white;
+  text-align: center;
 }
 
 input[type = "submit"]{
@@ -156,7 +158,7 @@ input[type = "submit"]{
   border: 2px;
   text-align: center;
   background-color: #EA0037;
-  color: white;
+  color: black;
  
 }
 
